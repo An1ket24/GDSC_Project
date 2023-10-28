@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <script scr="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+  <!--
+  Welcome to Tailwind Play, the official Tailwind CSS playground!
+
+  Everything here works just like it does when you're running Tailwind locally
+  with a real build pipeline. You can customize your config file, use features
+  like `@apply`, or even add third-party plugins.
+
+  Feel free to play with this example if you're just learning, or trash it and
+  start from scratch if you know enough to be dangerous. Have fun!
+-->
+<div class="h-screen w-full bg-purple-800">
+    <div class="grid place-items-center h-full ">
+      <form class="grid w-full max-w-screen-lg grid-cols-2 rounded-xl  items-center bg-white p-4 gap-8">
+        <div class="col-span-1">
+          <h2 class="text-4xl font-bold mb-2">Stay Updated</h2>
+          <p class="">Join 60,000+ Products manager recieiving montly <br> updates on:</p>
+          <ul class="list-inside capitalize my-4 list-image-[url('https://raw.githubusercontent.com/atharvarekhawar/GDSC_Challenge/43f2b6d69a0d5a3e53b6c3e3e9469f4d76093ffd/assets/images/icon-list.svg')]">
+            <li >product discovery and building that matters</li>
+            <li >mesuring to ensure updates are a success</li>
+            <li >And much more!</li>
+          </ul>
+          <label for="email" >Email Address</label>
+          <br />
+          <input type="email" class="mb-4 mt-2 w-full rounded p-2 outline outline-1 outline-gray-300" placeholder="email@company.com" />
+          <button class="w-full rounded bg-indigo-950 p-4 text-white">Subscribe to monthly newsletter</button>
+        </div>
+        <div class="grid-cols-1">
+          <img src="illustration-sign-up-desktop.svg"
+          class="object-cover w-full" alt="illustration-sign-up-desktop">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
